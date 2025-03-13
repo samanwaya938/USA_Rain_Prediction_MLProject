@@ -15,7 +15,9 @@ list_of_files = [
   f"src/{project_name}/pipeline/__init__.py",
   "experiment/test.ipynb",
   "requirements.txt",
-  "params.yaml"
+  "params.yaml",
+  "app.py",
+  "main.py"
 ]
 
 for filepath in list_of_files:
