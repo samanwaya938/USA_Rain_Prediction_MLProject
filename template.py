@@ -13,8 +13,8 @@ list_of_files = [
   f"src/{project_name}/exception/__init__.py",
   f"src/{project_name}/config/__init__.py",
   f"src/{project_name}/pipeline/__init__.py",
-  "experiment/test.ipynb",
-  "requirements.txt",
+  f"src/{project_name}/pipeline/training_pipeline.py",
+  f"src/{project_name}/pipeline/prediction_pipeline.py",
   "params.yaml",
   "app.py",
   "main.py"

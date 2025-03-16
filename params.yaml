@@ -1,0 +1,27 @@
+model_params:
+  Logistic regression:
+    C: [0.01, 0.1, 1]
+    penalty: ["l1", "l2"]
+    solver: ["liblinear", "saga"]
+    max_iter: [100, 1000, 10000]
+  
+  Decision Tree:
+    criterion: ["gini", "entropy"]
+    splitter: ["best", "random"]
+    max_depth: [null, 10, 30, 50]
+  
+  Support Vector Machine:
+    C: [0.1, 1, 10]
+    kernel: ["linear", "sigmoid"]
+    gamma: ["scale", "auto"]
+  
+  Random Forest:
+    n_estimators: [10, 100, 1000]
+    criterion: ["gini", "entropy"]
+    max_depth: [null, 10, 30, 50, 80]
+    min_samples_split: [2, 5, 10]
+  
+  K-Nearest Neighbors:
+    n_neighbors: [3, 5, 7, 9, 11]
+    weights: ["uniform", "distance"]
+    algorithm: ["auto", "ball_tree", "kd_tree", "brute"]
