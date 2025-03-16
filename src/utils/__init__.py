@@ -3,7 +3,7 @@ import yaml
 import sys
 import pickle
 import yaml
-from src.USA_Rain_Prediction_MLProject.exception import MyException
+from src.exception import MyException
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import RandomizedSearchCV
 

@@ -2,10 +2,10 @@ import os
 import sys
 import pandas as pd
 import numpy as np
-from src.USA_Rain_Prediction_MLProject.logger import logging
-from src.USA_Rain_Prediction_MLProject.exception import MyException
-from src.USA_Rain_Prediction_MLProject.config import DataTransformationConfig
-from src.USA_Rain_Prediction_MLProject.utils import save_object
+from src.logger import logging
+from src.exception import MyException
+from src.config import DataTransformationConfig
+from src.utils import save_object
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer

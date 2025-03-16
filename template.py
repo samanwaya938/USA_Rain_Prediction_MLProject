@@ -2,19 +2,18 @@ import os
 from pathlib import Path
 import logging
 
-project_name = "USA_Rain_Prediction_MLProject"
+project_name = "src"
 list_of_files = [
   ".github/workflows/.gitkeep",
-  "Data/"
-  f"src/{project_name}/__init__.py",
-  f"src/{project_name}/components/__init__.py",
-  f"src/{project_name}/utils/__init__.py",
-  f"src/{project_name}/logger/__init__.py",
-  f"src/{project_name}/exception/__init__.py",
-  f"src/{project_name}/config/__init__.py",
-  f"src/{project_name}/pipeline/__init__.py",
-  f"src/{project_name}/pipeline/training_pipeline.py",
-  f"src/{project_name}/pipeline/prediction_pipeline.py",
+  f"{project_name}/__init__.py",
+  f"{project_name}/components/__init__.py",
+  f"{project_name}/utils/__init__.py",
+  f"{project_name}/logger/__init__.py",
+  f"{project_name}/exception/__init__.py",
+  f"{project_name}/config/__init__.py",
+  f"{project_name}/pipeline/__init__.py",
+  f"{project_name}/pipeline/training_pipeline.py",
+  f"{project_name}/pipeline/prediction_pipeline.py",
   "params.yaml",
   "app.py",
   "main.py"

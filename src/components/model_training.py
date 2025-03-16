@@ -1,10 +1,10 @@
 import yaml
 import os
 import sys
-from src.USA_Rain_Prediction_MLProject.exception import MyException
-from src.USA_Rain_Prediction_MLProject.logger import logging
-from src.USA_Rain_Prediction_MLProject.config import ModelTrainerConfig
-from src.USA_Rain_Prediction_MLProject.utils import evaluate_models, save_object, read_yaml_file
+from src.exception import MyException
+from src.logger import logging
+from src.config import ModelTrainerConfig
+from src.utils import evaluate_models, save_object, read_yaml_file
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import SVC

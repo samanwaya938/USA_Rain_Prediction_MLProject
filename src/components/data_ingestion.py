@@ -1,8 +1,8 @@
 import os
 import sys
-from src.USA_Rain_Prediction_MLProject.logger import logging
-from src.USA_Rain_Prediction_MLProject.exception import MyException
-from src.USA_Rain_Prediction_MLProject.config import DataIngestionConfig
+from src.logger import logging
+from src.exception import MyException
+from src.config import DataIngestionConfig
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
