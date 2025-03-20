@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1742486746400
+current_stage: None
+description: null
+last_updated_timestamp: 1742486746400
+name: Decision Tree
+run_id: d44ec18ab7fb4304917f4b80e3d6c084
+run_link: null
+source: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/d44ec18ab7fb4304917f4b80e3d6c084/artifacts/Decision
+  Tree
+status: READY
+status_message: null
+storage_location: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/d44ec18ab7fb4304917f4b80e3d6c084/artifacts/Decision
+  Tree
+user_id: null
+version: 1

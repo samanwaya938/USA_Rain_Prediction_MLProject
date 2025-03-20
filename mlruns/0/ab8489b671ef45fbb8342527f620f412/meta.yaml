@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/0/ab8489b671ef45fbb8342527f620f412/artifacts
+end_time: 1742478185574
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ab8489b671ef45fbb8342527f620f412
+run_name: Random Forest
+run_uuid: ab8489b671ef45fbb8342527f620f412
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742478181007
+status: 3
+tags: []
+user_id: SAMANWAYA

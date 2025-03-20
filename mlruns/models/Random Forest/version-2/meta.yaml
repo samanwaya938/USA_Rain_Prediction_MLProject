@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1742484031562
+current_stage: None
+description: null
+last_updated_timestamp: 1742484031562
+name: Random Forest
+run_id: 25a310b4743d4ee38321183345f9c69c
+run_link: null
+source: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/25a310b4743d4ee38321183345f9c69c/artifacts/Random
+  Forest
+status: READY
+status_message: null
+storage_location: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/25a310b4743d4ee38321183345f9c69c/artifacts/Random
+  Forest
+user_id: null
+version: 2

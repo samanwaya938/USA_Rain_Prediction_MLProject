@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/e5506928ada54c979f0cc7d048ff98b3/artifacts
+end_time: 1742480497406
+entry_point_name: ''
+experiment_id: '257393496916277857'
+lifecycle_stage: active
+run_id: e5506928ada54c979f0cc7d048ff98b3
+run_name: Logistic regression
+run_uuid: e5506928ada54c979f0cc7d048ff98b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742480491633
+status: 3
+tags: []
+user_id: SAMANWAYA

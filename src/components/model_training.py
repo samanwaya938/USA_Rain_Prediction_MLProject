@@ -15,7 +15,7 @@ from sklearn.neighbors import KNeighborsClassifier
 class ModelTrainer:
   def __init__(self):
     self.model_trainer_config = ModelTrainerConfig()
-    self.model_eval = ModelEvaluation()
+    self.model_evaluation = ModelEvaluation()
    
 
   def initiate_model_trainer(self,train_arr,test_arr):
@@ -27,29 +27,34 @@ class ModelTrainer:
       models = {
       "Logistic regression" : LogisticRegression(),
       "Decision Tree" : DecisionTreeClassifier(),
-      "Support Vector Machine" : SVC(),
-      "Random Forest" : RandomForestClassifier(),
-      "K-Nearest Neighbors" : KNeighborsClassifier()
+      # "Support Vector Machine" : SVC(),
+      # "Random Forest" : RandomForestClassifier(),
+      # "K-Nearest Neighbors" : KNeighborsClassifier()
       }
 
       params = read_yaml_file(os.path.join("params.yaml"))
+      # print("\nLoaded parameters from params.yaml:")
+      # print(params)
 
     
 
-      model_report:dict = self.model_eval.evaluate_models(X_train,y_train,X_test,y_test,models,params)
+      model_report, cm, clf_report = self.model_evaluation.evaluate_models(X_train,y_train,X_test,y_test,models,params)
       print(f"Model Report : {model_report}")
 
       logging.info("Model training completed")
 
       best_model_score = max(sorted(model_report.values()))
       print(f"Best Model Score : {best_model_score}")
+
+      best_model_name = max(model_report, key=lambda k: model_report[k])
+      print(f"Best Model Name : {best_model_name}")
+      
+      best_model = models[best_model_name]
       
       if best_model_score < 0.6:
         raise Exception("No best model found")
 
-      best_model_name = list(model_report.keys())[list(model_report.values()).index(best_model_score)]
-      best_model = models[best_model_name]
-
+      
       save_object(
         file_path=self.model_trainer_config.model_training_path,
         obj=best_model

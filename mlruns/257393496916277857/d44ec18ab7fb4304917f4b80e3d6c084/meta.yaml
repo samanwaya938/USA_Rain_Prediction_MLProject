@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/d44ec18ab7fb4304917f4b80e3d6c084/artifacts
+end_time: 1742486746418
+entry_point_name: ''
+experiment_id: '257393496916277857'
+lifecycle_stage: active
+run_id: d44ec18ab7fb4304917f4b80e3d6c084
+run_name: Decision Tree
+run_uuid: d44ec18ab7fb4304917f4b80e3d6c084
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742486741808
+status: 3
+tags: []
+user_id: SAMANWAYA

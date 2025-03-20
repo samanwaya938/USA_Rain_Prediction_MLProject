@@ -1,0 +1,16 @@
+aliases: []
+creation_timestamp: 1742485367844
+current_stage: None
+description: null
+last_updated_timestamp: 1742485367844
+name: Logistic regression
+run_id: 3008524217714192b0046c14125db855
+run_link: null
+source: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/3008524217714192b0046c14125db855/artifacts/Logistic
+  regression
+status: READY
+status_message: null
+storage_location: file:///D:/MLOPS/USA_Rain_Prediction_MLProject/mlruns/257393496916277857/3008524217714192b0046c14125db855/artifacts/Logistic
+  regression
+user_id: null
+version: 5
